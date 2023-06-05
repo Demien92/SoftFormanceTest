@@ -1,0 +1,31 @@
+{
+  "name": "SoftFormanceTest",
+  "author": "Yaroslav Fedchenko <fedcenkoa948@gmail.com>",
+  "main": "index.js",
+  "homepage": "https://Demien92.github.io/SoftFormanceTest",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
